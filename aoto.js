@@ -14,7 +14,7 @@ function doPost(e){
 
 function sendLINE(){
   var url = 'https://api.line.me/v2/bot/message/push';
-  var toID = 'C7f9a7fd802174f92ce16cb1335b84a1f';//前回取得したグループID
+  var toID = 'C7f9a7fd802174f92ce16cb1335b84a1f';//グループID
   
   var body = '通帳よろしくネ';
 
